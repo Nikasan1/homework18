@@ -5,7 +5,7 @@ public class HW18 {
         for (int i = 0; i < matrix.length; i++) {
             maxNum = 8;
             for (int j = 0; j < matrix.length; j++) {
-                if (i % 2 == 1) {
+                if (i % 2 == 0) {
                     matrix[i][j] = j + 1;
                 } else {
                     matrix[i][j] = maxNum;
